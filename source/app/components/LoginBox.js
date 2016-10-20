@@ -8,7 +8,7 @@ const LoginBox = ({ handler }) => {
       <span className="login-box-logo">A</span>
       <div className="login-box-group">
         <input type="text" name="username" placeholder="My Login" ref={node => { username = node }} />
-        <input type="text" name="password" placeholder="Password" ref={node => { password = node }} />
+        <input type="password" name="password" placeholder="Password" ref={node => { password = node }} />
       </div>
       <button onClick={(e) => handler(username.value, password.value)}>Login</button>
     </div>
