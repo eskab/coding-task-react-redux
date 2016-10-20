@@ -1,0 +1,43 @@
+.list {
+  width: 70%;
+  padding: 10px;
+  background-color: #eee;
+  border-left: 2px solid darken(#eee, 5%);
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;  
+}
+
+.list-item input {
+  border: 1px solid #eee;
+  padding: 10px;
+}
+
+.list-item-done {
+  color: #eee;
+}
+
+.list-item button {
+  background-color: transparent;
+  border: 0;
+  margin: 0 5px;
+  font-size: 14px;
+}
+
+.fa-color {
+  color: #ff0000;
+}
+
+.list-info {
+  margin-top: 30px;
+  text-transform: uppercase;
+  color: #ccc;
+  font-weight: bold;
+}

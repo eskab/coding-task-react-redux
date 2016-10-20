@@ -1,0 +1,21 @@
+.dashboard {
+  width: 30%;
+  margin: 0 10px;
+}
+
+.dashboard-user {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.dashboard button {
+  display: block;
+  border: 0;
+  margin: 10px 0;
+  background-color: transparent;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 14px;
+}

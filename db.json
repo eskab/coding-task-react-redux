@@ -1,0 +1,75 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "admin",
+      "password": "123"
+    },
+    {
+      "id": 2,
+      "name": "admin2",
+      "password": "123"
+    },
+    {
+      "id": 3,
+      "name": "admin3",
+      "password": "123"
+    }
+  ],
+  "tasks": [
+    {
+      "userid": 1,
+      "id": "1zG1hF8ywQbbE2ae",
+      "body": "task 1",
+      "done": true
+    },
+    {
+      "userid": 1,
+      "id": "1zG1hF8ywQbbE2ad",
+      "body": "task 2",
+      "done": true
+    },
+    {
+      "userid": 1,
+      "id": "1zG1hF8ywQbbE2am",
+      "body": "task 3",
+      "done": true
+    },
+    {
+      "userid": 2,
+      "id": "1zG1hF8ywQbbE2ar",
+      "body": "task 1 admin 2",
+      "done": false
+    },
+    {
+      "userid": 1,
+      "id": "5gC0g8XrHQPCCXRO",
+      "body": "task 4",
+      "done": false
+    },
+    {
+      "userid": 2,
+      "id": "vJ5cA69k8u0eYpUa",
+      "body": "task 2 admin 2",
+      "done": true
+    },
+    {
+      "userid": 2,
+      "id": "aAB41CAkmwhas7Zb",
+      "body": "task 3 admin 2",
+      "done": false
+    },
+    {
+      "userid": 1,
+      "id": "coYzoK94HqK9MD3o",
+      "body": "task 5",
+      "done": false
+    },
+    {
+      "userid": 3,
+      "id": "taLpVohYVIZ4m64F",
+      "body": "task 1 admin 3",
+      "done": false
+    }
+  ]
+}
