@@ -4,6 +4,7 @@
   "description": "coding task",
   "main": "index.js",
   "scripts": {
+    "webpack": "webpack-dev-server",
     "db": "json-server --watch db.json"
   },
   "author": "",
